@@ -92,7 +92,7 @@ public class DvdController {
 
     @RequestMapping(value = "/displayEditDvdForm", method = RequestMethod.GET)
     public String displayEditDvdForm(@RequestParam("dvdId") int id, Model model) {
-        //model is so that view can display stuff in edit contact form
+        
 
         Dvd d = dao.getDvdById(id);
         model.addAttribute("dvd", d);

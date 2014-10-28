@@ -17,6 +17,13 @@
         <jsp:include page="header.jsp"/>
         <div class="row">
                 <div class="col-xs-6">
+                    <c:if test="${empty dvdList}">
+                        <h1>No DVD's were found with those properties</h1>
+                        <a href='displayDvdList'>Try Again?</a>
+                        
+                    </c:if>
+                          
+                          
                     <c:forEach var="dvd" items="${dvdList}">
                         <table class="table">
                             <tbody>
@@ -71,7 +78,7 @@
 
 
                                 <tr>
-                                    <td align="right"><a href="deleteDvd?dvdId=${dvd.dvdId}"><button type="submit" class="btn-lg btn-info">Delete</button></a></td>                                
+                                    <td><a href="deleteDvd?dvdId=${dvd.dvdId}"><button type="submit" class="btn-lg btn-info">Delete</button></a></td>                                
                                     <td><a href="displayEditDvdForm?dvdId=${dvd.dvdId}"><button type="submit" class="btn-lg btn-info">Edit</button></a></td>
                             <br />
                             <br />

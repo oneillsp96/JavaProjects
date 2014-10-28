@@ -203,11 +203,11 @@ public class DvdLibraryDbImpl implements DvdLibraryDao {
             Dvd d = new Dvd();
             d.setDvdId(rs.getInt("dvd_id"));
             d.setTitle(rs.getString("title"));
-            d.setReleaseDate(LocalDate.parse(rs.getString("release_date")));    //not sure this will work???
+            d.setReleaseDate(LocalDate.parse(rs.getString("release_date")));  
             d.setMpaaRating(rs.getString("mpaa_rating"));
             d.setDirector(rs.getString("director"));
             d.setStudio(rs.getString("studio"));
-            d.setNote("note");
+            d.setNote(rs.getString("note"));
 
             return d;
         }

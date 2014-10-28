@@ -23,7 +23,7 @@
 
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1>
 
 
 
@@ -79,7 +79,7 @@
 
 
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-4">
                     <c:forEach var="dvd" items="${dvdList}">
                         <table class="table">
                             <tbody>
@@ -134,7 +134,7 @@
 
 
                                 <tr>
-                                    <td align="right"><a href="deleteDvd?dvdId=${dvd.dvdId}"><button type="submit" class="btn-lg btn-info">Delete</button></a></td>                                
+                                    <td><a href="deleteDvd?dvdId=${dvd.dvdId}"><button type="submit" class="btn-lg btn-info">Delete</button></a></td>                                
                                     <td><a href="displayEditDvdForm?dvdId=${dvd.dvdId}"><button type="submit" class="btn-lg btn-info">Edit</button></a></td>
                             <br />
                             <br />
