@@ -1,0 +1,168 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Lab 1</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="lab1CSS.css">
+	</head>
+	<body>	
+
+
+
+
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">	
+	
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+	
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="background-color:black">Company</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li style="background-color:black"><a href="#">Home</a></li>        <!-- li class="active"  I took that out-->
+        <li><a href="#" style="background-color:black">About</a></li>
+	<li><a href="#" style="background-color:black">Contact</a></li>
+        
+<!--<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+  <!--<form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">delete this</button>
+      </form>
+
+-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact</a></li>
+        
+	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	</div>
+
+
+
+
+
+
+
+
+
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-sm-4">
+				<img src="Image.gif" alt="Image Placeholder" style="width:150px;height:100px"/>
+				</div>
+				<div class="col-sm-4">
+				<img src="Image.gif" alt="Image Placeholder" style="width:150px;height:100px"/>
+				</div>
+				<div class="col-sm-4">
+				<img src="Image.gif" alt="Image Placeholder" style="width:150px;height:100px"/>
+				</div>
+			</div>
+		</div>
+
+				
+
+<br />
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Resources</a></li>
+  <li><a href="#">Account</a></li>
+  <li><a href="#">Arrange</a></li>
+  <li><a href="#">Empower</a></li>
+  <li><a href="#">Innovate</a></li>
+  <li><a href="#">Create</a></li>
+  <li><a href="#">Design</a></li>
+  <li><a href="#">Implement</a></li>
+
+
+</ul>
+
+
+<br/>
+
+
+
+
+
+
+		<div class="container">
+			<div class="row">
+				<!--<div class="col-sm-12" -->
+					<img src="Picture.gif" alt="Picture Placeholder" style="width:900px;height:500px"/>		
+<br />			
+
+					<!--begin nesting-->
+
+
+					<div class="row">
+						<div class="col-sm-4" style="background-color: green">
+							<h4>Column 3</h4>
+						</div>
+						<div class="col-sm-4" style="background-color: yellow">
+							<h4>Column 4</h4>
+						</div>
+						<div class="col-sm-4" style="background-color: orange">
+							<h4>Column 5</h4>
+						</div>							
+					</div>
+					<!--end nesting-->
+				</div>
+<br />
+				<div class="col-sm-6" style="background-color: red">
+					<h4>Column 2</h4>
+					
+							
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

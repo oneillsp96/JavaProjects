@@ -1,0 +1,32 @@
+<DOCTYPE html>
+
+<html>
+
+
+<head>
+		<title>GridSystem1 Example</title>
+		
+		<link rel="stylesheet" type ="text/css" href= "css/bootstrap.css">	
+		<link rel="stylesheet" type ="text/css" href= "css/bootstrap.css">	
+		</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-1" style="background-color:gray">1</div>
+				<div class="col-xs-1" style="background-color:red">2</div>
+				<div class="col-xs-1" style="background-color:gray">3</div>
+				<div class="col-xs-1" style="background-color:red">4</div>
+				<div class="col-xs-1" style="background-color:gray">5</div>
+				<div class="col-xs-1" style="background-color:red">6</div>
+				<div class="col-xs-1" style="background-color:gray">7</div>
+				<div class="col-xs-1" style="background-color:red">8</div>
+				<div class="col-xs-1" style="background-color:gray">9</div>
+				<div class="col-xs-1" style="background-color:red">10</div>
+				<div class="col-xs-1" style="background-color:gray">11</div>
+				<div class="col-xs-1" style="background-color:red">12</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>
